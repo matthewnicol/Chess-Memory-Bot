@@ -1,0 +1,8 @@
+package chessFICScommunicator;
+
+public enum Command {
+	MOVE, UNDO,
+	ADDGAME, SETFILENAME, SAVE,
+	PLAYSET, HUMANPLAYS,
+	COMMANDS, LISTTACTICS, LISTOPENINGS, LISTGAMES
+}
